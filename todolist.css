@@ -1,0 +1,121 @@
+
+#container
+{
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 4px 8px 15px red;
+}
+.completed
+{
+	color: green;
+	text-decoration: line-through;
+}
+h1
+{
+	background: steelblue;
+	color:white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 100;
+}
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+body
+{
+	font-family: Roboto;
+	background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-position: center;
+
+}
+li
+{
+	background: white;
+	height:40px;
+	line-height: 40px;
+}
+li:nth-child(2n)
+{
+	background: #f7f7f7;
+}
+input
+{
+	font-size: 18px;
+	background: #f7f7f7;
+	width:100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: grey;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus
+{
+	background: white;
+	border:3px solid blue;
+	outline: none;
+}
+li:hover span
+{
+	width:40px;
+	opacity: 1.0;
+}
+.fa-pen
+{
+	float: right;
+}
+span
+{
+	background: orange;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.5s linear;
+	opacity: 0;
+}
+.rr
+{
+	margin:0 auto;
+	text-align: center;
+	width:200px;
+	height: 200px;
+}
+.x
+{
+	width: 200px;
+	height: 200px;
+	transform: rotate(90deg);
+	margin: 0 auto;
+	transition: 0.5s linear-gradient;
+	opacity:0.9;
+}
+.yo
+{
+background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: blue;
+	font-family: 'Dancing Script', cursive;
+}
+.jumbotron
+{
+	float: right;
+	height: 350px;
+	margin: 0 auto;
+	width:600px;
+	background: #348F50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
